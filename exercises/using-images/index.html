@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Using Images</title>
     <link rel="stylesheet" href="https://wudesign.me/resources/using-images/css/styles.css">
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
     
@@ -42,11 +43,7 @@
         </ol>
 
         <img src="https://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg" alt="panoramic image of a shelf cloud over a neighborhood." class="full-screen">
-       <style>
-        .full-screen {
-            width: 100%;
-        }
-       </style> 
+    
     
 
 
@@ -64,14 +61,7 @@
         </ol>
 
         <img src="https://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg" alt="panoramic image cropped into a square of a shelf cloud over a neighborhood." class="square">
-        <style>
-            .square {
-                object-fit: cover;
-                object-position: left center;
-                width: 280px;
-                height: 280px;
-            }
-        </style>
+
 
         <p>The image is stretched! Not what we wanted. We need to tell the image to be cropped, not stretched.</p>
 
@@ -104,15 +94,6 @@
       <ol class="instructions">
         <li>Create a css ruleset with selector <code>.background-image-example</code>, and add this rule: <code>background-image: url(https://wudesign.me/resources/using-images/images/shelf-cloud-vertical.jpg);</code></li>
       </ol>
-
-      <style>
-        .background-image-example {
-            background-image: url(https://wudesign.me/resources/using-images/images/shelf-cloud-vertical.jpg);
-            padding: 10% 5% 45% 40%;
-            background-size: cover;
-            background-position: center 20%;
-        }
-    </style> 
 
       <div class="background-image-example">
         <p><dfn>Shelf Cloud:</dfn> A low-hanging, well-defined, wedge-shaped formation that occurs along the leading edge of a gust front in a thunderstorm. Shelf clouds most often form just ahead of intense lines of thunderstorms.</p>
@@ -274,11 +255,6 @@
       
       <figure class="compressed-image">
         <img src="images/redflowers.jpg" class="redflowers" alt="three red flowers with green stems in a dramatically lit scene with a dr background and grainy filter">
-        <style>
-            .redflowers{
-                width: 100%
-            }
-        </style>
         <figcaption>width 1260 px, JPEG compression 5, 287 KB</figcaption>
       </figure>
         
