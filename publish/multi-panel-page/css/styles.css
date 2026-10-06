@@ -1,0 +1,131 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    line-height: 1.4;
+    font-size: 18px;
+    color: white;
+}
+
+h1 {
+    margin: 0; 
+    text-align: center;
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 38px;
+}
+
+p {
+    margin: 0 0 16px 0;
+}
+
+.content-column {
+    /* background-color: rgba(0,0,0,.25); */
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+header {
+    background-color: rgba(255,0,0,.25);
+    background-image: url(../images/gothic-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .content-column {
+    padding-top: 166px; 
+    padding-bottom: 188px;
+}
+
+section:first-of-type {
+    background: rgba(0,0,255,.25);
+    background-color: rgb(94, 14, 25);
+}
+
+section:first-of-type img {
+    float: right;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+section:nth-of-type(2) {
+       background-color: rgb(181, 181, 181);
+}
+
+section:nth-of-type(2) h3 {
+    color: black;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+}
+
+.item {
+    display: flex; 
+    margin-bottom: 24px;      
+}
+
+.item img {
+  width: 200px;  
+  height: 150px; 
+  margin-right: 12px;           
+}
+
+.item .text {
+    margin-left: 0px;    
+    padding-right: 40px;
+    line-height: 1.4;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+    line-height: 1.4;
+}
+
+section:nth-of-type(3) {
+    background-color: rgb(35, 21, 67);
+}
+
+section:nth-of-type(3) .content-column {
+    padding-bottom: 100px;
+}
+
+section:nth-of-type(3) p {
+    text-align: center;
+    margin: 0 126px; 
+    line-height: 1.4;
+    font-size: 26px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer .content-column {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer p {
+    margin: 0;
+}
